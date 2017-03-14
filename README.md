@@ -1,19 +1,35 @@
-# machine-learning
-Content for Udacity's Machine Learning curriculum, which includes projects and their descriptions.
+# Machine Lerning Engineer Nanodegree
+## Unsupervised Learning
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Please refer to [Udacity Terms of Service](https://www.udacity.com/legal) for further information.
-||||||| (empty tree)
-=======
-# Machine Learning Engineer Nanodegree
-## Specializations
-## Project: Capstone Proposal and Capstone Project
+## Project: Clusters by use of time
+ 
+### Install
+This project requiers**Python 2.7** and the following Python libraries installed:
+* Numpy
+* Pandas
+* Scikit-learn
+* Pylab
+* Matplotlib
+* Seaborn
+* Plotly
 
-**Note**
+You will also need to have software installed to run and execute a Jupyter Notebook
 
-The Capstone is a two-staged project. The first is the proposal component, where you can receive valuable feedback about your project idea, design, and proposed solution. This must be completed prior to your implementation and submitting for the capstone project. 
+If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
-You can find the [capstone proposal rubric here](https://review.udacity.com/#!/rubrics/410/view), and the [capstone project rubric here](https://review.udacity.com/#!/rubrics/108/view). Please ensure that you are following directions correctly when submitting these two stages which encapsulate your capstone.
+## Code
+Template code is provided in the `The_clusters.ipynb` notebook file. You will also be required to use the `the_data.csv`and `big_data.csv` dataset files to complete your work. The `atus_data_cleanup.ipynb` was used to clean up, rename and manually merge some data and the `data_basic_vis.ipynb` describes the data visually. 
 
-You will find an `open_projects` folder in these files. This will be where pre-curated capstone projects are available, should you choose to work on a project already partially designed for you. 
+## Run
+In a terminal or command window, navigate to the top-level project directory `lara_cap/` (that contains this README) and run one of the following commands:
 
-Please email [machine-support@udacity.com](mailto:machine-support@udacity.com) if you have any questions.
+ipython notebook ´The_clusters.ipynb´
+or
+
+jupyter notebook `The_clusters.ipynb`
+This will open the Jupyter Notebook software and project file in your browser.
+
+
+## Data
+All data in `atus.csv` is represented with a numerical value and can be translated using the ATUS Data Dictionary. In the ATUS Activity file each respondent is represented with a 14 number ID (TUCASEID) and answers with activity he or she did (TUACTIVITY_N), when it started and when it finished (HH:MM:SS). The ATUS Activity Summary file uses the respondent ID, his age and shows how many minutes (MMM) the respondent spends doing a certain activity.
+
