@@ -18,17 +18,25 @@ You will also need to have software installed to run and execute a Jupyter Noteb
 If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
 ## Code
-Template code is provided in the `The_clusters.ipynb` notebook file. You will also be required to use the `the_data.csv`and `big_data.csv` dataset files to complete your work. The `atus_data_cleanup.ipynb` was used to clean up, rename and manually merge some data and the `data_basic_vis.ipynb` describes the data visually. 
+Template code is provided in the `the_clusters.ipynb` notebook file and the `data_basic_vis.ipynb` describes the data visually. You will also be required to use the `the_data.csv`and `big_data.csv` dataset files to complete your work. The `atus_data_cleanup.ipynb` was used to clean up, rename and manually merge some data. 
 
 ## Run
-In a terminal or command window, navigate to the top-level project directory `lara_cap/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `lara_cap` (that contains this README) and run one of the following commands:
 
-ipython notebook ´The_clusters.ipynb´
+ipython notebook ´the_clusters.ipynb´
 or
 
-jupyter notebook `The_clusters.ipynb`
+jupyter notebook `the_clusters.ipynb`
 This will open the Jupyter Notebook software and project file in your browser.
 
 
 ## Data
+In the `atus_data_cleanup.ipynb` was used to clearn, merge and rename columns within the ATUS dataset. When downloading the dataset from the web page (https://www.bls.gov/tus/) it came as .dat format. I converted the .dat to .xlsx2 and used `xlsx2csv.ipynb` to convert it to the csv file `data.csv` to be able to use it in ipynb. 
+
+Here are links to the data needed for the project:
+[data.csv](https://www.dropbox.com/s/z8mn8i31qoeldf5/data.csv?dl=0 "Dropbox link to data.csv") 
+[big_data.csv](https://www.dropbox.com/s/t40kizyxe6h9sw9/big_data.csv?dl=0 "Dropbox link to big_data.csv")
+[the_data.csv](https://www.dropbox.com/s/0pieiwekby8lktm/the_data.csv?dl=0 "Dropbox link to the_data.csv")
+[s10big_data.csv](https://www.dropbox.com/s/z18s0zhnk9seklb/s10big_data.csv?dl=0 "Dropbox link to s10big_data.csv")
+[s10the_data.csv](https://www.dropbox.com/s/gid6bv8cqddl6vk/s10_the_data.csv?dl=0 "Dropbox link to s10the_data.csv")
 
