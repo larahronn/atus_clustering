@@ -3,6 +3,8 @@
 
 ## Project: Clusters by use of time
  
+ With Machine Learning we have the possibilities to include more information about people that might result in us discovering hidden patterns we weren't able to see before. We could perhaps add more meaningful information to simple demographics.   In this project I wanted to see if I could create simplified labels used in research to give a better understanding about the participants based on how they spend the 1,440 minutes that are in the day. I used the American Time Use Survey (ATUS) that measures how people divide their time among life’s activities. This survey includes more than just information about time use, where questionnaires have been added (Eating & Health Module, Well-Being Module, Eldercare Module) and participants have already participated in the Current Population Survey (CPS).   For further information you can download the Project report [here](https://www.dropbox.com/s/s9jvtr5zs2wk9d8/Project%20report.pdf?dl=0 "Dropbox link to Project report") 
+ 
 ### Install
 This project requiers**Python 2.7** and the following Python libraries installed:
 * Numpy
