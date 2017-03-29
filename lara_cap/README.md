@@ -36,9 +36,9 @@ This will open the Jupyter Notebook software and project file in your browser.
 In the `atus_data_cleanup.ipynb` was used to clearn, merge and rename columns within the ATUS dataset. When downloading the dataset from the web page (https://www.bls.gov/tus/) it came as .dat format. I converted the .dat to .xlsx2 and used `xlsx2csv.ipynb` to convert it to the csv file `data.csv` to be able to use it in ipynb. 
 
 Here are links to the data needed for the project:
-[data.csv](https://www.dropbox.com/s/z8mn8i31qoeldf5/data.csv?dl=0 "Dropbox link to data.csv") 
-[big_data.csv](https://www.dropbox.com/s/t40kizyxe6h9sw9/big_data.csv?dl=0 "Dropbox link to big_data.csv")
-[the_data.csv](https://www.dropbox.com/s/0pieiwekby8lktm/the_data.csv?dl=0 "Dropbox link to the_data.csv")
-[s10big_data.csv](https://www.dropbox.com/s/z18s0zhnk9seklb/s10big_data.csv?dl=0 "Dropbox link to s10big_data.csv")
-[s10the_data.csv](https://www.dropbox.com/s/gid6bv8cqddl6vk/s10_the_data.csv?dl=0 "Dropbox link to s10the_data.csv")
+[data.csv](https://www.dropbox.com/s/z8mn8i31qoeldf5/data.csv?dl=0 "Dropbox link to data.csv")  
+[big_data.csv](https://www.dropbox.com/s/t40kizyxe6h9sw9/big_data.csv?dl=0 "Dropbox link to big_data.csv")  
+[the_data.csv](https://www.dropbox.com/s/0pieiwekby8lktm/the_data.csv?dl=0 "Dropbox link to the_data.csv")  
+[s10big_data.csv](https://www.dropbox.com/s/z18s0zhnk9seklb/s10big_data.csv?dl=0 "Dropbox link to s10big_data.csv")  
+[s10the_data.csv](https://www.dropbox.com/s/gid6bv8cqddl6vk/s10_the_data.csv?dl=0 "Dropbox link to s10the_data.csv")  
 
