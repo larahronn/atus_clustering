@@ -25,7 +25,7 @@ Template code is provided in the `the_clusters.ipynb` notebook file and the `dat
 ## Run
 In a terminal or command window, navigate to the top-level project directory `lara_cap` (that contains this README) and run one of the following commands:
 
-ipython notebook ´the_clusters.ipynb´
+ipython notebook `the_clusters.ipynb`
 or
 
 jupyter notebook `the_clusters.ipynb`
@@ -35,7 +35,7 @@ This will open the Jupyter Notebook software and project file in your browser.
 ## Data
 In the `atus_data_cleanup.ipynb` was used to clearn, merge and rename columns within the ATUS dataset. When downloading the dataset from the web page (https://www.bls.gov/tus/) it came as .dat format. I converted the .dat to .xlsx2 and used `xlsx2csv.ipynb` to convert it to the csv file `data.csv` to be able to use it in ipynb. 
 
-Here are links to the data needed for the project:
+Here are links to the data needed for the project:  
 [data.csv](https://www.dropbox.com/s/z8mn8i31qoeldf5/data.csv?dl=0 "Dropbox link to data.csv")  
 [big_data.csv](https://www.dropbox.com/s/t40kizyxe6h9sw9/big_data.csv?dl=0 "Dropbox link to big_data.csv")  
 [the_data.csv](https://www.dropbox.com/s/0pieiwekby8lktm/the_data.csv?dl=0 "Dropbox link to the_data.csv")  
